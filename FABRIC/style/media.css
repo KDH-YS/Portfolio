@@ -1,0 +1,168 @@
+@media (max-width: 576px)
+{
+    nav,.container, .product, .vision
+    {
+        max-width: 540px;
+    }
+
+    .logo
+    {
+        margin: 10px;
+    }
+    .btn-menu
+    {
+        display: none;
+    }
+    .carousel-caption
+    {
+        top: 9rem;
+        right: 0rem;
+        left: 0rem;
+        text-align: center !important;
+    }
+}
+@media (min-width: 576px)
+{
+    nav, .container, .head-search-bar, .company, .product, .vision
+    {
+        max-width: 540px;
+    }
+
+    .logo
+    {
+        margin: 10px;
+    }
+    .btn-menu
+    {
+        display: none;
+    }
+    /* .carousel-caption
+    {
+        top: 9rem;
+        right: 0rem;
+        left: 0rem;
+        text-align: center !important;
+    } */
+}
+
+@media (max-width: 768px){
+    .carousel-caption
+    {
+        top: 9rem;
+        right: 0rem;
+        left: 0rem;
+        text-align: center !important;
+    }
+    .carousel-caption div h1
+    {
+        font-size: 3.5rem;
+        font-weight: 500;
+        word-wrap: keep-all;
+    }
+    .page
+    {
+        min-height: 100vh;
+        height: auto;
+    }
+    #page3
+    {
+        display: block;
+    }
+}
+
+@media (min-width: 768px){
+    ul.head-main-menu
+    {
+        display: flex;
+    }
+    nav,  .container, .head-search-bar, .company, .product, .vision
+    {
+        max-width: 720px;
+    }
+
+    #wrap{
+        overflow: hidden;
+    }
+    .scroll
+    {
+        height: 100vh;
+    }
+    .logo
+    {
+        margin: 0px;
+    }
+    .btn-menu
+    {
+        display: block;
+    }
+    .carousel-caption div h1
+    {
+        font-weight: 700 !important;
+    }
+    /* .carousel-caption
+    {
+        z-index: 10;
+        right: 7rem;
+        top: 20rem;
+        text-align: start !important;
+    } */
+}
+
+@media (min-width: 992px){
+    nav, .container, .head-search-bar, .company, .product, .vision
+    {
+        max-width: 960px;
+    }
+
+    ul.icon
+    {
+        display: flex;
+    }
+    .logo
+    {
+        margin: 0px;
+    }
+    .btn-menu
+    {
+        display: block;
+    }
+
+
+    /* .carousel-caption
+    {
+        position: relative !important;
+        z-index: 10;
+        right: 7rem;
+        top: 20rem;
+    } */
+}
+@media (min-width: 1200px){
+    nav, .container, .head-search-bar, .company, .product, .vision
+    {
+        max-width: 1140px;
+    }
+
+    .logo
+    {
+        margin: 0px;
+    }
+    .btn-menu
+    {
+        display: block;
+    }
+}
+@media (min-width: 1400px){
+    nav, .container, .head-search-bar, .company, .product, .vision
+    {
+        max-width: 1320px;
+    }
+
+    .logo
+    {
+        margin: 0px;
+    }
+    .btn-menu
+    {
+        display: block;
+    }
+}
